@@ -38,7 +38,7 @@ body {
 }
 .mobile .menu a{
   text-align: right;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 .mobile .menu-list{
   position: absolute;
@@ -75,7 +75,10 @@ body {
 }
 .mobile .menu-list button img{
   height: 50px;
-
+}
+.menu-btn{
+  width: 60%;
+  margin: auto;
 }
 header {
   position: absolute;
@@ -556,7 +559,6 @@ main .wapper .wapper-right img {
 footer {
   width: 100vw;
   background-color: #0c0c2b;
-  padding: 20px;
 }
 
 footer .fotbootom {
