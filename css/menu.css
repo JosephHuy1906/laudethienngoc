@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Oswald:wght@200&family=Tilt+Neon&family=Tilt+Warp&display=swap");
+
+:root {
+    --prmary-color: #02001b;
+    --color-title-main: #ffffff;
+    --color-text: #d9eae9;
+    --color-h2: #a78a67;
+    --font-open: "Open Sans", sans-serif;
+    --font-oswald: "Oswald", sans-serif;
+    --font-tilt-neon: "Tilt Neon", cursive;
+    --font-ttilt-warp: "Tilt Warp", cursive;
+}
+
+main .menu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+main .menu .menu-left {
+    width: 200px;
+    margin: auto;
+    padding-left: 10%;
+}
+
+main .menu .menu-left nav h2 {
+    color: var(--color-title-main);
+    font-family: var(--font-open);
+    font-size: 50px;
+}
+
+main .menu .menu-left nav ul li {
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    text-align: justify;
+    margin: auto;
+}
+
+main .menu .menu-left nav ul li a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-family: var(--font-tilt-neon);
+    text-transform: uppercase;
+}
+
+main .menu .menu-left nav ul li a:hover {
+    color: var(--color-h2);
+}
+
+main .menu .menu-right {
+    width: 70%;
+    height: 500px;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+main .menu .menu-right .menu-list {
+    width: 100%;
+    margin-top: 50px;
+}
+
+main .menu .menu-right .menu-list .menu-title h3 {
+    color: var(--color-h2);
+    font-family: var(--font-oswald);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+main .menu .menu-right .menu-list .menu-list-title {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item {
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item .menu-name p {
+    color: var(--color-text);
+    font-family: var(--font-open);
+    font-weight: lighter;
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item .menu-price p {
+    color: var(--color-h2);
+    font-family: var(--font-tilt-neon);
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.card {
+    width: 100%;
+    height: 100px;
+    background-color: #120e4a;
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item-card {
+    width: 35%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background: #0f0d27;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--color-text);
+    margin: 10px;
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item-card img {
+
+    height: 80px;
+    object-fit: cover;
+    padding-left: 10px;
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item-card .menu-name {
+    padding-left: 10px;
+
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item-card .menu-name h4 {
+    color: var(--color-title-main);
+    font-size: 20px;
+    font-family: var(--font-tilt-neon);
+    font-weight: lighter;
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item-card .menu-name p {
+    color: var(--color-h2);
+    font-size: 20px;
+}
+
+main .menu .menu-right .menu-list .menu-list-title .menu-item-card .seller img {
+    height: 60px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-item-list {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.menu-item-list h4 {
+    margin-top: 20px;
+    padding-left: 10px;
+    color: var(--color-h2);
+    font-family: var(--font-oswald);
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu-item-list-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item-list-1 .menu-item-card .menu-name h4 {
+    color: var(--color-title-main);
+    font-size: 20px;
+    font-family: var(--font-tilt-neon);
+    font-weight: lighter;
+    padding-left: 0;
+}

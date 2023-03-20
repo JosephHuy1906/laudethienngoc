@@ -1,0 +1,39 @@
+.contact{
+    width: 100%;
+    margin-top: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact .left{
+    width: 100px;
+}
+.contact .left p{
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.contact .right{
+    width: 350px;
+}
+
+.contact .right p{
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.contact .right img{
+    height: 30px;
+}
+main iframe{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px whitesmoke;
+    border-radius: 10px;
+}
