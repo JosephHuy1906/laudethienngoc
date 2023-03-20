@@ -41,9 +41,15 @@ body {
   grid-template-columns: 1fr 1fr;
   transition: ease-in-out 0.5s;
 }
+<<<<<<< HEAD
 
 .mobile .menu a {
   text-align: right;
+=======
+.mobile .menu .menu-btn{
+  width:60%;
+  margin: auto;
+>>>>>>> 62bc13df196b65ec91250deca290411c9c6e4841
 }
 
 .mobile .menu-list {
