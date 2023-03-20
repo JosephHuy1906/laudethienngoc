@@ -38,8 +38,9 @@ body {
   grid-template-columns: 1fr 1fr;
   transition: ease-in-out 0.5s;
 }
-.mobile .menu a{
-  text-align: right;
+.mobile .menu .menu-btn{
+  width:60%;
+  margin: auto;
 }
 .mobile .menu-list{
   position: absolute;
