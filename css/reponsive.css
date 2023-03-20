@@ -1,27 +1,27 @@
 @media(max-width: 900px) {
-    main .wapper{
+    .wapper{
         height: 580px;
     }
-    main .wapper .wapper-right img{
+    .wapper .wapper-right img{
         height: 250px;
     }
-    main .menu .menu-right .menu-list .menu-list-title .menu-item{
+    .menu .menu-right .menu-list .menu-list-title .menu-item{
         width: 100%;
         padding-left: 30px;
     }
-    main .menu .menu-right .menu-list .menu-list-title .menu-item-card{
+    .menu .menu-right .menu-list .menu-list-title .menu-item-card{
         width: 80%;
     }
 }
 
 @media(max-width: 480px) {
-    main .banner .content h2 {
+    .banner .content h2 {
         font-size: 40px;
         width: 80%;
         margin: auto;
     }
 
-    main .banner .content p {
+    .banner .content p {
         width: 80%;
         margin: auto;
         font-size: 25px;
@@ -54,7 +54,6 @@
 
     .mobile {
         display: block;
-        width: 100vw;
     }
 
     .title {
@@ -62,7 +61,7 @@
         padding-top: 10px;
     }
 
-    main .wapper .wapper-letf {
+    .wapper .wapper-letf {
         margin: auto;
         text-align: center;
     }
@@ -77,22 +76,22 @@
         margin: auto;
     }
 
-    main .wapper .wapper-letf h2 {
+    .wapper .wapper-letf h2 {
         font-size: 20px;
     }
 
-    main .wapper .wapper-letf {
+    .wapper .wapper-letf {
         padding-right: 0px;
         max-width: 300px;
     }
 
-    main .wapper .wapper-right {
+    .wapper .wapper-right {
         width: 300px;
         margin-top: 50px;
 
     }
 
-    main .wapper .wapper-right img {
+    .wapper .wapper-right img {
         height: 200px;
     }
 
@@ -167,37 +166,37 @@
         font-size: 18px;
     }
 
-    main .menu {
+    .menu {
         flex-wrap: wrap;
     }
 
-    main .menu .menu-left {
+    .menu .menu-left {
         width: 100%;
     }
-    main .menu .menu-left  h2{
+    .menu .menu-left  h2{
         text-align: center;
     }
 
-    main .menu .menu-left nav ul {
+    .menu .menu-left nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    main .menu .menu-right {
+    .menu .menu-right {
         width: 100%;
     }
-    main .menu .menu-right .menu-list{
+    .menu .menu-right .menu-list{
         margin: auto;
         text-align: center;
     }
-    main .menu .menu-right .menu-list .menu-list-title .menu-item {
+    .menu .menu-right .menu-list .menu-list-title .menu-item {
         width: 100%;
         justify-content: center;
     }
-    main .menu .menu-right .menu-list .menu-list-title .menu-item-card{
+    .menu .menu-right .menu-list .menu-list-title .menu-item-card{
         width: 90%;
     }
-    main .menu .menu-right .menu-list .menu-list-title .menu-item-card .menu-name h4{
+    .menu .menu-right .menu-list .menu-list-title .menu-item-card .menu-name h4{
         font-size: 18px;
     }
     .contact .left{

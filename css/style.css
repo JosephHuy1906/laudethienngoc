@@ -11,6 +11,10 @@
   --font-ttilt-warp: "Tilt Warp", cursive;
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
 body {
   background-color: var(--prmary-color);
@@ -18,12 +22,14 @@ body {
 
 .container {
   width: 100%;
+  margin: 0px;
 }
 .act{
   display: none;
 }
 .mobile{
   display: none;
+  width: 100vw;
   transition: ease-in-out 0.5s;
 }
 .mobile .menu{
@@ -34,7 +40,6 @@ body {
 }
 .mobile .menu a{
   text-align: right;
-  /* padding-right: 20px; */
 }
 .mobile .menu-list{
   position: absolute;
@@ -53,7 +58,7 @@ body {
 .mobile .menu-list li{
   list-style: none;
   height: 50px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 .mobile .menu-list li a{
   text-decoration: none;
@@ -137,11 +142,9 @@ header .menu-right ul li a:hover {
   transition: ease-in-out 0.5s;
 }
 
-main {
-  width: 100%;
-}
 
-main .banner {
+
+.banner {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -151,7 +154,7 @@ main .banner {
   overflow: hidden;
 }
 
-main .banner::before {
+.banner::before {
   content: "";
   display: block;
   position: absolute;
@@ -166,7 +169,7 @@ main .banner::before {
   animation: Inout 5s infinite;
 }
 
-main .banner::after {
+.banner::after {
   content: "";
   display: block;
   position: absolute;
@@ -189,18 +192,18 @@ main .banner::after {
   }
 }
 
-main .banner .content {
+.banner .content {
   text-align: center;
 }
 
-main .banner .content h2 {
+.banner .content h2 {
   color: var(--color-title-main);
   font-family: var(--font-tilt-neon);
   font-size: 50px;
   text-transform: uppercase;
 }
 
-main .banner .content p {
+.banner .content p {
   text-align: center;
   color: var(--color-text);
   font-family: var(--font-oswald);
@@ -210,7 +213,7 @@ main .banner .content p {
   margin-top: 20px;
 }
 
-main .banner .content button {
+.banner .content button {
   width: 200px;
   height: 50px;
   border: 2px solid white;
@@ -220,14 +223,14 @@ main .banner .content button {
   background: none;
 }
 
-main .banner .content button:hover {
+.banner .content button:hover {
   border: 1px solid var(--color-h2);
   background: #a78a67;
   color: var(--color-title-main);
   transition: ease 0.5s;
 }
 
-main .wapper {
+.wapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -237,7 +240,7 @@ main .wapper {
   margin-top: 50px;
 }
 
-main .wapper h2 {
+.wapper h2 {
   text-transform: uppercase;
 }
 
@@ -261,7 +264,7 @@ main .wapper h2 {
   text-transform: uppercase;
 }
 
-main .wapper .wapper-letf {
+.wapper .wapper-letf {
   display: grid;
   grid-template-columns: 1fr;
   max-width: 400px;
@@ -270,13 +273,13 @@ main .wapper .wapper-letf {
   padding-right: 50px;
 }
 
-main .wapper .wapper-letf h2 {
+.wapper .wapper-letf h2 {
   color: var(--color-title-main);
   font-size: 30px;
   font-family: var(--font-tilt-neon);
 }
 
-main .wapper .wapper-letf p {
+.wapper .wapper-letf p {
   color: var(--color-text);
 
   font-family: var(--font-open);
@@ -285,7 +288,7 @@ main .wapper .wapper-letf p {
   line-height: 30px;
 }
 
-main .wapper .wapper-letf button {
+.wapper .wapper-letf button {
   width: 200px;
   height: 50px;
   text-decoration: none;
@@ -297,18 +300,18 @@ main .wapper .wapper-letf button {
   font-weight: lighter;
 }
 
-main .wapper .wapper-letf button:hover {
+.wapper .wapper-letf button:hover {
   border: 1px solid var(--color-h2);
   background: #a78a67;
   color: var(--color-title-main);
   transition: ease 0.5s;
 }
 
-main .wapper .wapper-right {
+.wapper .wapper-right {
   width: 400px;
 }
 
-main .wapper .wapper-right img {
+.wapper .wapper-right img {
   height: 300px;
   object-fit: cover;
 }
@@ -560,7 +563,6 @@ footer {
 footer .fotbootom {
   width: 100vw;
   background-color: #0c0c2b;
-  padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
